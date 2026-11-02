@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "biggerbundles",
+	"version": "${version}",
+	"name": "Bigger Bundles",
+	"description": "Large Bundle (3x Platz, aus 3 Bundles) und Super Large Bundle (9x Platz, aus 3 Large Bundles) mit eigenem Aussehen.",
+	"authors": ["kebab.hans"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.kebab.biggerbundles.BiggerBundlesMod"]
+	},
+	"mixins": ["biggerbundles.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25"
+	}
+}
